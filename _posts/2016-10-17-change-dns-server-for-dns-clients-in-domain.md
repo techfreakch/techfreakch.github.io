@@ -29,7 +29,8 @@ foreach ($computer in $computers)
 }
 ```
 You can watch the progress using
-<pre class="theme:powershell lang:ps decode:true ">Get-Job</pre>
-Simple, and pretty fast.
+```powershell
+Get-Job
+```
 
-&nbsp;
+Simple, and pretty fast.
