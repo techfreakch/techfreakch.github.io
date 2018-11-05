@@ -9,7 +9,7 @@ plugins:
   - jemoji
   - jekyll-mentions
   - jekyll-seo-tag
- url: https://www.techfreak.ch
+url: https://www.techfreak.ch
  social:
    name: Michel Zehnder
    links:
