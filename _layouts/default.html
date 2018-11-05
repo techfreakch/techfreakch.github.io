@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 	{% feed_meta %}
 	
-{% seo %}
+
+	{% seo %}
   </head>
 
   <body>
 
     <header>
       <div class="container">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <h1>{{ site.title | default: site.github.repository_name }} <a href="https://www.techfreak.ch/feed.xml"><img src="assets/images/site/feed-icon-16x16.png /></a></h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 		 <section id="downloads">
 			<a href="/" class="btn">Home</a>
