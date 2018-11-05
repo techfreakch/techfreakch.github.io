@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Disqus
+#reactions .reaction-items .reaction-item .reaction-item__button img, #reactions-promotion .reaction-items .reaction-item .reaction-item__button img {
+    height: 18px !important;
+}
