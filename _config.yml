@@ -10,10 +10,13 @@ plugins:
   - jekyll-mentions
   - jekyll-seo-tag
 url: https://www.techfreak.ch
- social:
-   name: Michel Zehnder
-   links:
-     - https://twitter.com/MichelZ82
-     - https://www.linkedin.com/in/michelzehnder
-     - https://github.com/MichelZ
+social:
+  name: Michel Zehnder
+  links:
+    - https://twitter.com/MichelZ82
+    - https://www.linkedin.com/in/michelzehnder
+    - https://github.com/MichelZ
 google_site_verification: ITvWmzPVbHtcAEH5WtJcvC2kQPeGImwa2QcLdqvu5Iw
+twitter:
+  username: MichelZ82
+  card: summary
