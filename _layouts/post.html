@@ -12,10 +12,10 @@ layout: default
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
         <span class="p-author h-card" itemprop="name">{{ author.name }}</span>
 		{% if author.twitter %}
-              <a href="https://twitter.com/{{author.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a> 
+              <a href="https://twitter.com/{{author.twitter}}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> 
 		{% endif %}
 		{% if author.linkedin %}
-              <a href="https://www.linkedin.com/in/{{author.linkedin}}" class="icon fa-linkedin"><span class="label">LinkedIn</span></a> 
+              <a href="{{author.linkedin}}"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> 
 		{% endif %}
         </span>
       {% endif %}</p>
