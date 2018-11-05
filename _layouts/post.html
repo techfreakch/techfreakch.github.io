@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign author = site.data.authors[page.author] %}
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 	<h1>{{ page.title }}</h1>
 	<p class="meta">
@@ -9,7 +10,7 @@ layout: default
       </time>
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span class="p-author h-card" itemprop="name">{{ site.data.authors[post.author].name }}</span>
+        <span class="p-author h-card" itemprop="name">{{ author.name }}</span>
         </span>
       {% endif %}</p>
 
