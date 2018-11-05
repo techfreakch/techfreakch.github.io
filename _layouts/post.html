@@ -11,6 +11,12 @@ layout: default
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
         <span class="p-author h-card" itemprop="name">{{ author.name }}</span>
+		{% if author.twitter %}
+              <a href="https://twitter.com/{{author.twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a> 
+		{% endif %}
+		{% if author.linkedin %}
+              <a href="https://www.linkedin.com/in/{{author.linkedin}}" class="icon fa-linkedin"><span class="label">LinkedIn</span></a> 
+		{% endif %}
         </span>
       {% endif %}</p>
 

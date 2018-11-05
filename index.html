@@ -9,6 +9,7 @@ comment_count: true
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> by {{ post.author }} - <a href="{{ post.url }}#disqus_thread" title="{{ post.title }}">{{ post.title }}</a></li>
+		{% assign author = site.data.authors[post.author] %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> by {{ author.name }} - <a href="{{ post.url }}#disqus_thread" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
