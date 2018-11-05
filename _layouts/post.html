@@ -10,7 +10,10 @@ layout: default
       </time>
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span class="p-author h-card" itemprop="name">{{ author.name }}</span>
+        <a href="{{ author.permalink }}"><span class="p-author h-card" itemprop="name">{{ author.name }}</span></a>
+		{% if author.twitter or author.linkedin %}
+		• 
+		{% endif %}
 		{% if author.twitter %}
               <a href="https://twitter.com/{{author.twitter}}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> 
 		{% endif %}

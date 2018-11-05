@@ -1,5 +1,8 @@
 ---
 permalink: /about/
+redirect_from:
+ - /author/michelz
+ - /authors/michelz
 ---
 <img src="https://www.gravatar.com/avatar/a2ba30975134053b3baf7b8e3dd82499?s=128" />
 

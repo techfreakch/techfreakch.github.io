@@ -10,6 +10,7 @@ plugins:
   - jekyll-mentions
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 url: https://www.techfreak.ch
 social:
   name: Michel Zehnder
