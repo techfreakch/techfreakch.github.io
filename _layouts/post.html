@@ -9,7 +9,7 @@ layout: default
       </time>
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span class="p-author h-card" itemprop="name">{{ page.author.name }}</span>
+        <span class="p-author h-card" itemprop="name">{{ site.data.authors[post.author].name }}</span>
         </span>
       {% endif %}</p>
 
@@ -36,7 +36,7 @@ s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments.</a></noscript>
 {% endif %}                     
 	
 	
