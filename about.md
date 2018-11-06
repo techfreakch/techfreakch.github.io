@@ -4,7 +4,7 @@ redirect_from:
  - /author/michelz
  - /authors/michelz
 ---
-<img src="https://www.gravatar.com/avatar/a2ba30975134053b3baf7b8e3dd82499?s=128" /><a href="https://twitter.com/MichelZ82" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 200%;"></i></a><a href="https://www.linkedin.com/in/michelzehnder" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 200%;"></i></a><a href="https://www.github.com/michelz" target="_blank"><i class="fa fa-github-square" aria-hidden="true" style="font-size: 200%;"></i></a> <br />
+<img src="https://www.gravatar.com/avatar/a2ba30975134053b3baf7b8e3dd82499?s=128" /> <a href="https://twitter.com/MichelZ82" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 200%;"></i></a> <a href="https://www.linkedin.com/in/michelzehnder" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 200%;"></i></a> <a href="https://www.github.com/michelz" target="_blank"><i class="fa fa-github-square" aria-hidden="true" style="font-size: 200%;"></i></a> <br />
 
 Lead Architect of a Software Company headquartered in Switzerland with a passion for technology, especially in C#, ASP.NET, .NET and (Windows-) System Administration / Automation <br />
 I enjoy helping others and learn through that. 
