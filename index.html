@@ -13,6 +13,7 @@ comment_count: true
 	    <li>
 			<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> by {{ author.name }} • <a href="{{ post.url }}#disqus_thread" title="{{ post.title }}">•</a>
 			<p>{{ post.excerpt }}</p>
+			<hr />
 		</li>
 	  {% endfor %}
 	</ul>
