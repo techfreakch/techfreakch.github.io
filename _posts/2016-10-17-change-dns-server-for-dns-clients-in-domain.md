@@ -9,6 +9,10 @@ tags: [dns, windows]
 ---
 Recently we had the need to change DNS Servers on a couple of machines.
 Rather than logging into every machine and doing this manually, of course we did it using PowerShell! It even works with IPv6.
+
+<script src="https://gist.github.com/MichelZ/c16dbceb4bdb865c64f9a5bdb33c6254.js"></script>
+<noscript>
+<pre>
 ```powershell
 # Get Computers from Active Directory
 $computers = Get-ADComputer -SearchBase "OU=Servers,OU=Computers,OU=Accounts,DC=domain,DC=local" -SearchScope 1 -Filter *
@@ -28,6 +32,8 @@ foreach ($computer in $computers)
     } -AsJob
 }
 ```
+</pre>
+</noscript>
 You can watch the progress using
 ```powershell
 Get-Job
