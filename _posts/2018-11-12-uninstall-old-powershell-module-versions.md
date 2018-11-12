@@ -60,7 +60,7 @@ To get rid of the old versions, you can use this easy script:
 <noscript>
 <pre>
 ```powershell
-$modules = Get-Module -ListAvailable AzureRm* | Select-Object Name -Unique
+$modules = Get-Module -ListAvailable AzureRm* | Select-Object -ExpandProperty Name -Unique
 foreach ($module in $modules)
 {
     $Latest = Get-InstalledModule $module; Get-InstalledModule $module -AllVersions | ? {$_.Version -ne $Latest.Version} | Uninstall-Module
